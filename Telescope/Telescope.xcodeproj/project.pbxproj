@@ -1,0 +1,687 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3411CEC2DE6C29500B93895 /* Secrets-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3411CEB2DE6C29500B93895 /* Secrets-Info.plist */; };
+		D3DC255D2DC17D7100B66063 /* TelescopeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC255C2DC17D7100B66063 /* TelescopeApp.swift */; };
+		D3DC255F2DC17D7100B66063 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC255E2DC17D7100B66063 /* ContentView.swift */; };
+		D3DC25612DC17D7300B66063 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DC25602DC17D7300B66063 /* Assets.xcassets */; };
+		D3DC25642DC17D7300B66063 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3DC25632DC17D7300B66063 /* Preview Assets.xcassets */; };
+		D3DC256F2DC17D7400B66063 /* TelescopeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC256E2DC17D7400B66063 /* TelescopeTests.swift */; };
+		D3DC25792DC17D7400B66063 /* TelescopeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25782DC17D7400B66063 /* TelescopeUITests.swift */; };
+		D3DC257B2DC17D7400B66063 /* TelescopeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC257A2DC17D7400B66063 /* TelescopeUITestsLaunchTests.swift */; };
+		D3DC25952DC1B5D500B66063 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25942DC1B5D500B66063 /* APIService.swift */; };
+		D3DC25972DC1B8EC00B66063 /* MdfindService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25962DC1B8EC00B66063 /* MdfindService.swift */; };
+		D3DC25992DC1C01400B66063 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25982DC1C01400B66063 /* DataStructures.swift */; };
+		D3DC259B2DC1C24F00B66063 /* WindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC259A2DC1C24F00B66063 /* WindowAccessor.swift */; };
+		D3DC25A12DC2FE0E00B66063 /* BookmarkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25A02DC2FE0E00B66063 /* BookmarkService.swift */; };
+		D3DC25A42DC32EB300B66063 /* SwiftShell in Frameworks */ = {isa = PBXBuildFile; productRef = D3DC25A32DC32EB300B66063 /* SwiftShell */; };
+		D3DC25A72DC431D200B66063 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25A62DC431D200B66063 /* SettingsView.swift */; };
+		D3DC25AC2DC6F8BF00B66063 /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = D3DC25AB2DC6F8BF00B66063 /* KeyboardShortcuts */; };
+		D3DC25AE2DC6F9B400B66063 /* ShortcutNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25AD2DC6F9B400B66063 /* ShortcutNames.swift */; };
+		D3DC25B02DC9755800B66063 /* InternetMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3DC25AF2DC9755800B66063 /* InternetMonitor.swift */; };
+		D3DC25B32DC986B300B66063 /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = D3DC25B22DC986B300B66063 /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3DC256B2DC17D7400B66063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DC25512DC17D7100B66063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DC25582DC17D7100B66063;
+			remoteInfo = Telescope;
+		};
+		D3DC25752DC17D7400B66063 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3DC25512DC17D7100B66063 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3DC25582DC17D7100B66063;
+			remoteInfo = Telescope;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3411CEB2DE6C29500B93895 /* Secrets-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Secrets-Info.plist"; sourceTree = "<group>"; };
+		D3DC25592DC17D7100B66063 /* Telescope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Telescope.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC255C2DC17D7100B66063 /* TelescopeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelescopeApp.swift; sourceTree = "<group>"; };
+		D3DC255E2DC17D7100B66063 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3DC25602DC17D7300B66063 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3DC25632DC17D7300B66063 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D3DC25652DC17D7300B66063 /* Telescope.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Telescope.entitlements; sourceTree = "<group>"; };
+		D3DC256A2DC17D7400B66063 /* TelescopeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelescopeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC256E2DC17D7400B66063 /* TelescopeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelescopeTests.swift; sourceTree = "<group>"; };
+		D3DC25742DC17D7400B66063 /* TelescopeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelescopeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3DC25782DC17D7400B66063 /* TelescopeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelescopeUITests.swift; sourceTree = "<group>"; };
+		D3DC257A2DC17D7400B66063 /* TelescopeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelescopeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D3DC25942DC1B5D500B66063 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		D3DC25962DC1B8EC00B66063 /* MdfindService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MdfindService.swift; sourceTree = "<group>"; };
+		D3DC25982DC1C01400B66063 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
+		D3DC259A2DC1C24F00B66063 /* WindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowAccessor.swift; sourceTree = "<group>"; };
+		D3DC25A02DC2FE0E00B66063 /* BookmarkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkService.swift; sourceTree = "<group>"; };
+		D3DC25A52DC3EEF500B66063 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D3DC25A62DC431D200B66063 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D3DC25AD2DC6F9B400B66063 /* ShortcutNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutNames.swift; sourceTree = "<group>"; };
+		D3DC25AF2DC9755800B66063 /* InternetMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetMonitor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3DC25562DC17D7100B66063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC25B32DC986B300B66063 /* Sparkle in Frameworks */,
+				D3DC25A42DC32EB300B66063 /* SwiftShell in Frameworks */,
+				D3DC25AC2DC6F8BF00B66063 /* KeyboardShortcuts in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25672DC17D7400B66063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25712DC17D7400B66063 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3DC25502DC17D7100B66063 = {
+			isa = PBXGroup;
+			children = (
+				D3DC255B2DC17D7100B66063 /* Telescope */,
+				D3DC256D2DC17D7400B66063 /* TelescopeTests */,
+				D3DC25772DC17D7400B66063 /* TelescopeUITests */,
+				D3DC255A2DC17D7100B66063 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3DC255A2DC17D7100B66063 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC25592DC17D7100B66063 /* Telescope.app */,
+				D3DC256A2DC17D7400B66063 /* TelescopeTests.xctest */,
+				D3DC25742DC17D7400B66063 /* TelescopeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3DC255B2DC17D7100B66063 /* Telescope */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC25A52DC3EEF500B66063 /* Info.plist */,
+				D3DC255C2DC17D7100B66063 /* TelescopeApp.swift */,
+				D3DC255E2DC17D7100B66063 /* ContentView.swift */,
+				D3DC25602DC17D7300B66063 /* Assets.xcassets */,
+				D3DC25652DC17D7300B66063 /* Telescope.entitlements */,
+				D3DC25622DC17D7300B66063 /* Preview Content */,
+				D3DC25942DC1B5D500B66063 /* APIService.swift */,
+				D3DC25962DC1B8EC00B66063 /* MdfindService.swift */,
+				D3DC25982DC1C01400B66063 /* DataStructures.swift */,
+				D3DC259A2DC1C24F00B66063 /* WindowAccessor.swift */,
+				D3DC25A02DC2FE0E00B66063 /* BookmarkService.swift */,
+				D3DC25A62DC431D200B66063 /* SettingsView.swift */,
+				D3DC25AD2DC6F9B400B66063 /* ShortcutNames.swift */,
+				D3DC25AF2DC9755800B66063 /* InternetMonitor.swift */,
+				D3411CEB2DE6C29500B93895 /* Secrets-Info.plist */,
+			);
+			path = Telescope;
+			sourceTree = "<group>";
+		};
+		D3DC25622DC17D7300B66063 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC25632DC17D7300B66063 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D3DC256D2DC17D7400B66063 /* TelescopeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC256E2DC17D7400B66063 /* TelescopeTests.swift */,
+			);
+			path = TelescopeTests;
+			sourceTree = "<group>";
+		};
+		D3DC25772DC17D7400B66063 /* TelescopeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3DC25782DC17D7400B66063 /* TelescopeUITests.swift */,
+				D3DC257A2DC17D7400B66063 /* TelescopeUITestsLaunchTests.swift */,
+			);
+			path = TelescopeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3DC25582DC17D7100B66063 /* Telescope */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC257E2DC17D7400B66063 /* Build configuration list for PBXNativeTarget "Telescope" */;
+			buildPhases = (
+				D3DC25552DC17D7100B66063 /* Sources */,
+				D3DC25562DC17D7100B66063 /* Frameworks */,
+				D3DC25572DC17D7100B66063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Telescope;
+			packageProductDependencies = (
+				D3DC25A32DC32EB300B66063 /* SwiftShell */,
+				D3DC25AB2DC6F8BF00B66063 /* KeyboardShortcuts */,
+				D3DC25B22DC986B300B66063 /* Sparkle */,
+			);
+			productName = Telescope;
+			productReference = D3DC25592DC17D7100B66063 /* Telescope.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3DC25692DC17D7400B66063 /* TelescopeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC25812DC17D7400B66063 /* Build configuration list for PBXNativeTarget "TelescopeTests" */;
+			buildPhases = (
+				D3DC25662DC17D7400B66063 /* Sources */,
+				D3DC25672DC17D7400B66063 /* Frameworks */,
+				D3DC25682DC17D7400B66063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DC256C2DC17D7400B66063 /* PBXTargetDependency */,
+			);
+			name = TelescopeTests;
+			productName = TelescopeTests;
+			productReference = D3DC256A2DC17D7400B66063 /* TelescopeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3DC25732DC17D7400B66063 /* TelescopeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3DC25842DC17D7400B66063 /* Build configuration list for PBXNativeTarget "TelescopeUITests" */;
+			buildPhases = (
+				D3DC25702DC17D7400B66063 /* Sources */,
+				D3DC25712DC17D7400B66063 /* Frameworks */,
+				D3DC25722DC17D7400B66063 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3DC25762DC17D7400B66063 /* PBXTargetDependency */,
+			);
+			name = TelescopeUITests;
+			productName = TelescopeUITests;
+			productReference = D3DC25742DC17D7400B66063 /* TelescopeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3DC25512DC17D7100B66063 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D3DC25582DC17D7100B66063 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					D3DC25692DC17D7400B66063 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D3DC25582DC17D7100B66063;
+					};
+					D3DC25732DC17D7400B66063 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = D3DC25582DC17D7100B66063;
+					};
+				};
+			};
+			buildConfigurationList = D3DC25542DC17D7100B66063 /* Build configuration list for PBXProject "Telescope" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3DC25502DC17D7100B66063;
+			packageReferences = (
+				D3DC25A22DC32EB300B66063 /* XCRemoteSwiftPackageReference "SwiftShell" */,
+				D3DC25AA2DC6F8BF00B66063 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				D3DC25B12DC986B300B66063 /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			productRefGroup = D3DC255A2DC17D7100B66063 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3DC25582DC17D7100B66063 /* Telescope */,
+				D3DC25692DC17D7400B66063 /* TelescopeTests */,
+				D3DC25732DC17D7400B66063 /* TelescopeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3DC25572DC17D7100B66063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3411CEC2DE6C29500B93895 /* Secrets-Info.plist in Resources */,
+				D3DC25642DC17D7300B66063 /* Preview Assets.xcassets in Resources */,
+				D3DC25612DC17D7300B66063 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25682DC17D7400B66063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25722DC17D7400B66063 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3DC25552DC17D7100B66063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC259B2DC1C24F00B66063 /* WindowAccessor.swift in Sources */,
+				D3DC25A72DC431D200B66063 /* SettingsView.swift in Sources */,
+				D3DC255F2DC17D7100B66063 /* ContentView.swift in Sources */,
+				D3DC25B02DC9755800B66063 /* InternetMonitor.swift in Sources */,
+				D3DC25992DC1C01400B66063 /* DataStructures.swift in Sources */,
+				D3DC25A12DC2FE0E00B66063 /* BookmarkService.swift in Sources */,
+				D3DC25972DC1B8EC00B66063 /* MdfindService.swift in Sources */,
+				D3DC25AE2DC6F9B400B66063 /* ShortcutNames.swift in Sources */,
+				D3DC25952DC1B5D500B66063 /* APIService.swift in Sources */,
+				D3DC255D2DC17D7100B66063 /* TelescopeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25662DC17D7400B66063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC256F2DC17D7400B66063 /* TelescopeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3DC25702DC17D7400B66063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3DC25792DC17D7400B66063 /* TelescopeUITests.swift in Sources */,
+				D3DC257B2DC17D7400B66063 /* TelescopeUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3DC256C2DC17D7400B66063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DC25582DC17D7100B66063 /* Telescope */;
+			targetProxy = D3DC256B2DC17D7400B66063 /* PBXContainerItemProxy */;
+		};
+		D3DC25762DC17D7400B66063 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3DC25582DC17D7100B66063 /* Telescope */;
+			targetProxy = D3DC25752DC17D7400B66063 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D3DC257C2DC17D7400B66063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3DC257D2DC17D7400B66063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D3DC257F2DC17D7400B66063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Telescope/Telescope.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telescope/Preview Content\"";
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Telescope/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.Telescope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D3DC25802DC17D7400B66063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Telescope/Telescope.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Telescope/Preview Content\"";
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Telescope/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.Telescope;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D3DC25822DC17D7400B66063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.TelescopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telescope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telescope";
+			};
+			name = Debug;
+		};
+		D3DC25832DC17D7400B66063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.TelescopeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Telescope.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Telescope";
+			};
+			name = Release;
+		};
+		D3DC25852DC17D7400B66063 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.TelescopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Telescope;
+			};
+			name = Debug;
+		};
+		D3DC25862DC17D7400B66063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 474HNX28FN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.telescope.TelescopeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Telescope;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3DC25542DC17D7100B66063 /* Build configuration list for PBXProject "Telescope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC257C2DC17D7400B66063 /* Debug */,
+				D3DC257D2DC17D7400B66063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC257E2DC17D7400B66063 /* Build configuration list for PBXNativeTarget "Telescope" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC257F2DC17D7400B66063 /* Debug */,
+				D3DC25802DC17D7400B66063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC25812DC17D7400B66063 /* Build configuration list for PBXNativeTarget "TelescopeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC25822DC17D7400B66063 /* Debug */,
+				D3DC25832DC17D7400B66063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3DC25842DC17D7400B66063 /* Build configuration list for PBXNativeTarget "TelescopeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3DC25852DC17D7400B66063 /* Debug */,
+				D3DC25862DC17D7400B66063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D3DC25A22DC32EB300B66063 /* XCRemoteSwiftPackageReference "SwiftShell" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kareman/SwiftShell";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		D3DC25AA2DC6F8BF00B66063 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 3.0.0;
+				minimumVersion = 1.0.0;
+			};
+		};
+		D3DC25B12DC986B300B66063 /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D3DC25A32DC32EB300B66063 /* SwiftShell */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3DC25A22DC32EB300B66063 /* XCRemoteSwiftPackageReference "SwiftShell" */;
+			productName = SwiftShell;
+		};
+		D3DC25AB2DC6F8BF00B66063 /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3DC25AA2DC6F8BF00B66063 /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+		D3DC25B22DC986B300B66063 /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3DC25B12DC986B300B66063 /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D3DC25512DC17D7100B66063 /* Project object */;
+}
